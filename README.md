@@ -123,29 +123,29 @@ O esquema do banco está em [`supabase/schema.sql`](supabase/schema.sql).
 **Cenário 1: aprovado automaticamente**
 
 ![Canvas do cenário 1](prints/cenario1-canvas.png)
-![Aviso do cenário 1](prints/cenario1-telegram.png)
+![Aviso do cenário 1](prints/cenario1-telegram.png.jpeg)
 
 **Cenário 2: divergência de valor**
 
-![Mensagem ao gestor](prints/cenario2-telegram-gestor.png)
-![Aviso ao funcionário](prints/cenario2-telegram-aviso.png)
+![Mensagem ao gestor](prints/cenario2-telegram-gestor.png.jpeg)
+![Aviso ao funcionário](prints/cenario2-telegram-aviso.png.jpeg)
 ![Canvas do cenário 2](prints/cenario2-canvas.png)
 
 **Cenário 3: acima do teto**
 
-![Mensagem ao gestor](prints/cenario3-telegram-gestor.png)
-![Aviso ao funcionário](prints/cenario3-telegram-aviso.png)
+![Mensagem ao gestor](prints/cenario3-telegram-gestor.png.jpeg)
+![Aviso ao funcionário](prints/cenario3-telegram-aviso.png.jpeg)
 ![Canvas do cenário 3](prints/cenario3-canvas.png)
 
 **Cenário 4: pedido ainda não processado**
 
-![Mensagem pendente](prints/cenario4-telegram-pendente.png)
+![Mensagem pendente](prints/cenario4-telegram-pendente.png.jpeg)
 ![Canvas aguardando](prints/cenario4-canvas-aguardando.png)
 ![Linha no banco](prints/cenario4-supabase.png)
 
 **Fail-safe: falha da IA**
 
-![Fail-safe no Telegram](prints/fail-safe-telegram.png)
+![Fail-safe no Telegram](prints/fail-safe-telegram.jpeg)
 
 **Resultado final no banco (4 cenários)**
 
@@ -186,7 +186,6 @@ O formulário e o workflow desta demonstração ficam ativos enquanto durar o pe
 ai-operations/
 ├── README.md
 ├── prompts.md
-├── links.md
 ├── workflow/
 │   └── aprovacao-de-reembolsos.json
 ├── supabase/
